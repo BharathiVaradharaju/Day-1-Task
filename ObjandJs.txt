@@ -1,0 +1,31 @@
+Object:
+-------
+* The 'Object' type represents one of JavaScript's data types.
+
+* It is used to store various keyed collections and more 
+complex entities in form of Key:Value Pair.
+
+* Objects can be created using the Object() constructor 
+or the object initializer. For EX: Object.create();
+
+* In JavaScript, objects are collections of key-value pairs, 
+where keys are strings (or symbols) and values 
+can be of any data type, including other objects.
+
+* The properties of an object define the characteristics of the object. 
+We can access the properties of an object with a simple dot-notation:
+        "objectName.propertyName"
+
+Internal representation in JavaScript:
+--------------------------------------
+Internally, JavaScript engines use various data structures to 
+represent objects efficiently. One common approach is using a 
+hash table or a similar structure to store the object’s properties 
+and their corresponding values. This allows for fast access and manipulation of properties.
+Internal Representation:
+{
+  empname: "vishal R",
+  designation: UI Designer,
+  emailid: "Vishal.R007@gmail.com"
+  salary: 50000
+}

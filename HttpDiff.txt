@@ -1,0 +1,29 @@
+HTTP:
+  The Hypertext Transfer Protocol (HTTP) is the 
+  foundation of the World Wide Web, and is used 
+  to load webpages using hypertext links.This
+  allows information transfer between the server 
+  and the user inside the web. It is invented in 1989.
+
+Difference between HTTP1.1 vs HTTP2:
+
+1. First version of HTTP is HTTP1.1, developed in 1997 after several
+   stages of development were as HTTP2 developed in 2015 to overcome some 
+   problems created due to HTTP1.1 version. 
+
+2. HTTP/1.1, which keeps all requests and responses in plain text format, 
+   HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, while still 
+   maintaining HTTP semantics, such as verbs, methods, and headers.
+
+3. HTTP/2 is much faster and more efficient than HTTP/1.1. 
+
+4. HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, 
+   it blocks all the other resources behind it. In contrast, HTTP/2 is able to use a single TCP connection to send 
+   multiple streams of data at once so that no one resource blocks any other resource.
+
+5. To speed up web performance, both HTTP/1.1 and HTTP/2 compress HTTP messages to make them smaller. 
+   However, HTTP/2 uses a more advanced compression method called 
+   HPACK that eliminates redundant information in HTTP header packets.
+
+6. Compare to HTTP/1.1, factors such as multiplexing, stream prioritization, flow control, 
+   server push, and compression in HTTP/2 will affect the changing landscape of web development.
